@@ -14,7 +14,8 @@ requirements = [
     'pytest>=3.0.0',
     'resilient>={}.{}'.format(major, minor),
     'resilient-circuits>={}.{}'.format(major, minor),
-    'ConfigParser'
+    'ConfigParser',
+    'six',
 ]
 
 setup(
