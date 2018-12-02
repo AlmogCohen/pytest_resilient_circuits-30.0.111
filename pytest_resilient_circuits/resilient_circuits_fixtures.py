@@ -16,11 +16,7 @@ import resilient
 from resilient import SimpleHTTPException
 import resilient_circuits.app
 from six import StringIO
-
-try:
-    import ConfigParser as configparser
-except:
-    import configparser
+from six.moves import configparser
 
 DATATABLE_TYPE_ID = 8
 
